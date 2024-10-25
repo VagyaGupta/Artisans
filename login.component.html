@@ -1,0 +1,25 @@
+<div class="one" *ngIf="!IsLoggedIn">
+    <h2>Login</h2>
+    <div class="two">
+        <form #form="ngForm">
+           <!-- <div class="three"> <input type="text" placeholder="Username" name=username [(ngModel)]="username" required></div> -->
+           <div class="three"> <input type="text" placeholder="Email" name=email [(ngModel)]="LoginObj.email" required></div>
+            <div class="four"><input type="password" placeholder="Password" name="password" [(ngModel)]="LoginObj.password" required  #fname="ngModel"   ngPattern="passwordPattern"></div>
+            <div class="five"><button type="button" [disabled]="form.invalid" (click)="onLogin()">Login</button></div>
+        </form>
+        <div class="nine" *ngIf="fname.touched && fname.errors?.['pattern']">
+          
+                <span>Password should be at least 8 characters long and should contain one number,one character and one special character.</span>
+            
+        </div>
+    </div>
+    <div class="six">
+        <p>Don't have an account? <span style="color: blue;" ><a [routerLink]="['/app-signup']"> Register Here </a> </span></p>
+    </div>
+    <div class="seven">
+        <span style="color: brown;text-decoration: underline;">Forgot Password</span>
+    </div>
+</div>
+<div class="eight" *ngIf="IsLoggedIn" style="margin:50PX;color:maroon;font-weight: bolder; font-size: xx-large;">
+    {{ message }}   
+ </div>

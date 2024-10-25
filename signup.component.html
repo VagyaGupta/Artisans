@@ -1,0 +1,39 @@
+
+ <div class="one" *ngIf="!showLogin" >
+    <h2>SignUp</h2>
+    <div class="two">
+        <form #form="ngForm" (ngSubmit)="signUp(form.value)">
+            <div class="three">
+                <input type="text" name="name" [(ngModel)]="data.name" placeholder="Enter your name" required>
+            </div>
+            <div class="eight">
+                <input type="email" name="email" [(ngModel)]="data.email" placeholder="Enter your email" required>
+            </div>
+            <div class="nine">
+                <input type="password" name="password" [(ngModel)]="data.password" placeholder="Enter your Password" required>
+            </div>
+            <div class="five">
+                <button type="submit" [disabled]="form.invalid">SignUp</button>
+                <div class="basic"><a (click)="openLogin()">Already have an account? Click here to Login</a></div>
+            </div>
+        </form>
+    </div>
+    </div>
+   
+  <div class="one" *ngIf="showLogin">
+    <h2>Login</h2>
+    <div class="two">
+        <form #sellerloginform="ngForm" (ngSubmit)="login(sellerloginform.value)">
+            <div class="eight">
+                <input type="email" name="email" [(ngModel)]="data.email" placeholder="Enter your email" required>
+            </div>
+            <div class="nine">
+                <input type="password" name="password" [(ngModel)]="data.password" placeholder="Enter your Password" required>
+            </div>
+            <div class="five">
+                <button type="submit" [disabled]="sellerloginform.invalid">Login</button>
+                <div class="basic"><a (click)="openSignUp()">Don't have an Account? Click here to SignUp</a></div>
+            </div>
+        </form>
+    </div>
+    </div>

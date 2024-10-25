@@ -1,0 +1,82 @@
+{
+  "seller": [
+    {
+      "id": "279c",
+      "name": "Vagya Gupta",
+      "email": "vagya@seller.com",
+      "password": "vagya@123"
+    },
+    {
+      "id": "f412",
+      "name": "Nikita Rao",
+      "email": "nikita@seller.com",
+      "password": "nikita@123"
+    },
+    {
+      "id": "034a",
+      "name": "Yashashvi Gupta",
+      "email": "yashashvi@seller.com",
+      "password": "yashashvi@123"
+    },
+    {
+      "id": "c385",
+      "name": "Danish Khan",
+      "email": "Danish@seller.com",
+      "password": "danish@123"
+    },
+    {
+      "id": "c359",
+      "name": "Veeru Singh",
+      "email": "veeru@seller.com",
+      "password": "veeru@123"
+    },
+    {
+      "id": "0fd7",
+      "name": "vagya",
+      "email": "vagya@gupta",
+      "password": "123"
+    }
+  ],
+  "products": [
+    {
+      "name": "OnePlus",
+      "price": "27000",
+      "category": "Mobile",
+      "description": "Good Quality",
+      "image": "https://img.freepik.com/premium-vector/oneplus-vector-set-white-background-isolated-high-quality_873925-1826655.jpg",
+      "id": "8d37"
+    },
+    {
+      "id": "198a",
+      "name": "IPhone 14",
+      "price": "100000",
+      "category": "Electronics",
+      "description": "Best Camera Quality",
+      "image": "https://inventstore.in/wp-content/uploads/2023/04/Starlight-1024x1024.webp"
+    },
+    {
+      "id": "72c0",
+      "name": "Samsung",
+      "price": "22000",
+      "category": "Mobile",
+      "description": "Superb Battery-Life ",
+      "image": "https://img.freepik.com/premium-vector/samsung-galaxy-s23-ultra-official-presentation-new-flagship-new-generation-smartphone-phone-with-builtin-stylus-black-color-original-wallpaper-screen-editorial_661108-12677.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": "2dfa",
+      "name": "Dell Laptop",
+      "price": "75000",
+      "category": "Laptop",
+      "description": "Powerful processors, Ample RAM",
+      "image": "https://images.jdmagicbox.com/quickquotes/images_main/dell-2-in-1-laptops-15-03-2022-096-271077724-blzvgidk.jpg"
+    },
+    {
+      "name": "OnePlus",
+      "price": "25000",
+      "category": "mobile",
+      "description": "Fast Charging",
+      "image": "https://img.freepik.com/premium-vector/oneplus-vector-set-white-background-isolated-high-quality_873925-1826655.jpg",
+      "id": "1b8d"
+    }
+  ]
+}

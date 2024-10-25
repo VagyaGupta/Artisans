@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#a0d2eb, #e5eaf5, #d0bdf4,#8458B3, #a28089);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    color: black;
+  
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
